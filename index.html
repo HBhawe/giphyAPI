@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>giphy API</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="container">
+    <form id="giphyForm" action="">
+        <fieldset>
+            <legend>Get GIF</legend>
+            <label for="searchTerm">Search term:</label>
+            <input type="text" name="searchTerm" id="searchTerm"/>
+        </fieldset>
+        <button type="submit" id="btnFetch">Get data</button>
+    </form>
+    <div id="giphyResult">
+        <img src="" alt="" id="img"/>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

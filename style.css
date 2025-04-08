@@ -1,0 +1,12 @@
+body, button, input, select, textarea {
+    font-family: "Courier New", Courier, monospace;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+}
+
+button, img {
+    margin: 5px 0 0 0;
+}
